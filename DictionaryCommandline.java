@@ -15,7 +15,7 @@ public class DictionaryCommandline extends DictionaryManagement {
     }
 
     /**.
-     *
+     * nhap : nhap tu command , show : hien thi , end : ket thuc
      */
     public static void dictionaryBasic() {
         String val = "read";
@@ -31,7 +31,7 @@ public class DictionaryCommandline extends DictionaryManagement {
     }
 
     /**.
-     *
+     * insert : nhap file , lookup goi ham lookup , show : hien , search goi ham searcher
      */
     public static void dictionaryAddvanced() {
         String read = "read";

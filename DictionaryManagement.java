@@ -7,7 +7,7 @@ public class DictionaryManagement  {
     public static Dictionary dictionary = new Dictionary();
 
     /**.
-     *
+     *them Word tu commandLine
      */
     public static void insertFromCommandline() {
         Scanner input = new Scanner(System.in);
@@ -18,7 +18,8 @@ public class DictionaryManagement  {
     }
 
     /**.
-     *
+     *Them Word tu file
+     * voi duong vao la bien final FILE_INPUT
      */
     public static void insertFromFile() {
         Scanner input = null;
@@ -39,7 +40,7 @@ public class DictionaryManagement  {
     }
 
     /**.
-     *
+     *VD: home -> nha
      */
     public static void dictionaryLookup() {
         Scanner input = new Scanner(System.in);
@@ -58,7 +59,7 @@ public class DictionaryManagement  {
     }
 
     /**.
-     *
+     *VD : tra -> transaction , transalate ,...
      */
     public static void dictionarySearcher() {
         Scanner input = new Scanner(System.in);
