@@ -12,8 +12,6 @@ public class Word {
 
     /**
      *
-     * @param word_explain
-     * @param word_target
      */
     Word(String word_target, String word_explain) {
         this.word_target = word_target;
@@ -21,7 +19,6 @@ public class Word {
     }
     /**.
      *
-     * @param word_explain
      */
     public void setWord_explain(String word_explain) {
         this.word_explain = word_explain;
@@ -29,7 +26,6 @@ public class Word {
 
     /**.
      *
-     * @param word_target
      */
     public void setWord_target(String word_target) {
         this.word_target = word_target;
@@ -37,7 +33,6 @@ public class Word {
 
     /**.
      *
-     * @return
      */
     public String getWord_explain() {
         return word_explain;
@@ -45,7 +40,6 @@ public class Word {
 
     /**.
      *
-     * @return
      */
     public String getWord_target() {
         return word_target;
