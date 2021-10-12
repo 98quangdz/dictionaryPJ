@@ -5,7 +5,7 @@ public class Word {
     /**.
      *
      */
-    Word() {
+    Wsord() {
         this.word_explain = null;
         this.word_target = null;
     }
