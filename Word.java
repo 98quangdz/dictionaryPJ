@@ -3,7 +3,7 @@ public class Word {
     private String word_explain;
 
     /**.
-     *
+     *khoi tao rong
      */
     Word() {
         this.word_explain = null;
