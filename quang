@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="795.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="30.0" layoutY="45.0" prefHeight="200.0" prefWidth="100.0" spacing="20.0">
+         <children>
+            <Label text="Tiếng Anh" />
+            <Label text="Tiiếng Việt" />
+            <Label text="Phiên âm API" />
+            <Label text="Danh, động, tính, trạng từ" />
+            <Label text="Từ đồng nghĩa" />
+            <Label text="Audio" />
+         </children>
+      </VBox>
+      <VBox layoutX="130.0" layoutY="45.0" prefHeight="200.0" prefWidth="157.0" spacing="10.5">
+         <children>
+            <TextField />
+            <TextField />
+            <TextField />
+            <TextField />
+            <TextField />
+            <Button mnemonicParsing="false" text="Button" />
+         </children>
+      </VBox>
+      <TableView layoutX="297.0" layoutY="45.0" prefHeight="261.0" prefWidth="466.0">
+        <columns>
+          <TableColumn prefWidth="94.0" text="Tiếng Anh" />
+          <TableColumn prefWidth="86.0" text="Tiếng Việt" />
+            <TableColumn prefWidth="82.0" text="API" />
+            <TableColumn prefWidth="74.0" text="N,ADJ,..." />
+            <TableColumn prefWidth="82.0" text="Đồng nghĩa" />
+            <TableColumn prefWidth="47.0" text="Audio" />
+        </columns>
+      </TableView>
+      <Button layoutX="30.0" layoutY="281.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" text="Thêm" />
+      <Button layoutX="122.0" layoutY="281.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" text="Sửa" />
+      <Button layoutX="216.0" layoutY="281.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" text="Xóa" />
+   </children>
+</AnchorPane>
